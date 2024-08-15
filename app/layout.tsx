@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <meta name="title" content="Barber" />
+      </head>
       <body className={inter.className}>
         <AuthProvider>
           <div className="flex h-full flex-col">
