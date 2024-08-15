@@ -209,6 +209,7 @@ const ServiceItem = ({ service, barbershop }: ServiceItemProps) => {
                       mode="single"
                       locale={ptBR}
                       selected={selectedDay}
+                      disabled={{dayOfWeek:[0,1]}}
                       onSelect={handleDateSelect}
                       fromDate={new Date()}
                       styles={{
